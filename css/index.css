@@ -22,6 +22,10 @@ html, body {
     display: inline;
     padding: 30px 20px 30px 20px;
 }
+.navbar_li a {
+    color: white;
+    text-decoration: none;
+}
 .navbar_li.logo {
     font-size: 20px;
     font: bold;
@@ -31,12 +35,21 @@ html, body {
     background-color: rgb(43, 39, 39);
     transition-duration: 1s;
 }
+
+
+
+/* DEFINITION DE LA CLASSE RIGHT */
 .right{
     float: right;
 }
 .left {
     float: left;
 }
+
+
+
+
+
 
 .fond {
     width:100%;
@@ -45,7 +58,7 @@ html, body {
 }
 
 .Image {
-    background-image: url(banniere.png);
+    background-image: url(/img/banniere.png);
     background-position: center ;
     background-size: cover;
     background-attachment: relative;
@@ -89,6 +102,10 @@ html, body {
     font-weight: 600;
     text-transform: uppercase;
 }
+.Bouton_orange a, .Bouton_gris a {
+    color: white;
+    text-decoration: none;
+}
 
 .Bouton_gris {
     border : 0px;
@@ -117,9 +134,13 @@ html, body {
     text-transform: uppercase;
     margin-top: 30px;
 }
+.Forum a {
+    text-decoration: none;
+    color: black;
+}
 
 .Splitter {
-    
+    /* PK T'as pas mit un <hr> a la place ?? */
     border-top: 1px solid #222222;
     margin-left: 200px;
     margin-right: 200px;
