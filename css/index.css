@@ -1,0 +1,169 @@
+/* Balise de base */
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: rgb(87, 85, 85);
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 75px;
+}
+.navbar_ul {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 28px;
+}
+.navbar_li {
+    display: inline;
+    padding: 30px 20px 30px 20px;
+}
+.navbar_li.logo {
+    font-size: 20px;
+    font: bold;
+    line-height: 10px;
+}
+.navbar_li.link:hover {
+    background-color: rgb(43, 39, 39);
+    transition-duration: 1s;
+}
+.right{
+    float: right;
+}
+.left {
+    float: left;
+}
+
+.fond {
+    width:100%;
+    max-height:400px;
+    height:400px;
+}
+
+.Image {
+    background-image: url(banniere.png);
+    background-position: center ;
+    background-size: cover;
+    background-attachment: relative;
+}
+.FC_Large_Text {
+    font-size: 78px;
+    font: bold;
+    font-family: sans-serif;
+    text-align: center ;
+    text-transform: uppercase;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    letter-spacing: 2px;
+    font-weight: 800;
+    line-height: 0.8;
+}
+
+.FC_Small_Text {
+    font-size:  28px;
+    font-style: italic;
+    text-align: center ;
+    line-height: 0.8;
+    margin-bottom: 70px;
+}
+
+.FC_Text {
+    vertical-align: middle;
+    text-align: center;
+    padding: 0%;
+}
+
+.Bouton_orange {
+    border : 1px;
+    border-color: white;
+    width: 173px;
+    height: 47px;
+    background-color: #db7b32;
+    color: WHITE;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Bouton_gris {
+    border : 0px;
+    width: 190px;
+    height: 47px;
+    background-color:#777777;
+    color: WHITE;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.Forum {
+    border-color: #db7b32;
+    width: 173px;
+    height: 40px;
+    background-color: #fff;
+    color: #db7b32;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.Splitter {
+    
+    border-top: 1px solid #222222;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.space {
+    height: 100px;
+    text-align: center;
+}
+
+.footer_bloc {
+    background: #111111;
+    color: #BBBBBB;
+    font-size: 16px;
+    max-height:247px;
+    height:247px;
+}
+
+.footer_bloc .footer_place {
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.1;
+    padding-bottom: 55px;
+}
+
+.footer_bloc .footer_place .footer_text {
+    text-align: center;
+    height: 16px;
+    width: auto;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: #111111;
+    color: white;
+}
