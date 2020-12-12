@@ -4,6 +4,12 @@ html, body {
     margin: 0px;
 }
 
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /* NAVBAR */
 .navbar{
     background-color: rgb(87, 85, 85);
@@ -58,7 +64,7 @@ html, body {
 }
 
 .Image {
-    background-image: url(/img/banniere.png);
+    background-image: url(../img/banniere.png);
     background-position: center ;
     background-size: cover;
     background-attachment: relative;
