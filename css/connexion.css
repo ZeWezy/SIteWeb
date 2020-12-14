@@ -1,0 +1,79 @@
+
+
+
+/* Connexion.html */
+
+.ImageC {
+    width: 100%; 
+    max-height: 100%;
+    height: 1080px;
+    background-image: url(../img/connexion.png);
+    background-position: center ;
+    background-size: cover;
+}
+
+.Middle {
+    vertical-align: middle;
+    padding-top: 290px;
+}
+
+.CaseConnexion {
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MiddleWin {
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.WinConnexion {
+    vertical-align: middle;
+    height: 440px;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TitreConnexion {
+    font-family: sans-serif;;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.CaseFormulaireConnexion {
+    border: 2px;
+    border-color:rgb(43, 39, 39);
+    height: 400px;
+    width: 540px;
+}
+
+.FC_Connexion {
+    padding-left: 12px;
+    padding-top: 30px;
+    font-family: sans-serif;;
+    font-size: 30px;
+}
+
+.FormulaireConnexion {
+    font-family: sans-serif;;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 25px;
+    width: 300px;
+    height: 30px;
+    margin: 30px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    height: 30px;
+    width: 120px;
+    margin-left: 390px;
+    margin-top: 35px;
+}
