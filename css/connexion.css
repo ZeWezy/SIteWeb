@@ -1,3 +1,9 @@
+/* Balise de base */
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* NAVBAR */
 .navbar{
     background-color: rgb(87, 85, 85);
